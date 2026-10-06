@@ -1,0 +1,54 @@
+# ── Secrets (NEVER commit these) ──────────────────────────────────────────────
+windows/hermes/profiles/bot2/.env
+windows/hermes/profiles/*/.env
+windows/supermemory/.env
+windows/omniroute/models.yml
+windows/omniroute/config.yml
+
+# ── Hermes Configs & Personal Data ─────────────────────────────────────────────
+windows/hermes/config.yaml
+windows/hermes/profiles/*/config.yaml
+windows/hermes/memories/
+windows/hermes/profiles/*/memories/
+*.md.lock
+
+# ── Runtime / volatile state ───────────────────────────────────────────────────
+*.lock
+*.pid
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# ── Cache & generated files ────────────────────────────────────────────────────
+windows/hermes/profiles/*/cache/
+windows/hermes/profiles/*/sessions/
+windows/hermes/profiles/*/logs/
+windows/hermes/profiles/*/state/
+windows/hermes/profiles/*/gateway/
+windows/hermes/profiles/*/gateway_state.json
+windows/hermes/profiles/*/gateway_voice_mode.json
+windows/hermes/profiles/*/gateway_starts.log
+windows/hermes/profiles/*/channel_directory.json
+windows/hermes/profiles/*/discord_threads.json
+windows/hermes/profiles/*/processes.json
+windows/hermes/profiles/*/context_length_cache.yaml
+windows/hermes/profiles/*/.skills_prompt_snapshot.json
+windows/hermes/skills/.hub/index-cache/
+windows/hermes/skills/.hub/scan-cache/
+windows/hermes/skills/.curator_backups/
+windows/hermes/profiles/*/skills/.curator_backups/
+windows/hermes/skills/.usage.json*
+windows/hermes/profiles/*/skills/.usage.json*
+
+# ── Binary / media ─────────────────────────────────────────────────────────────
+*.wav
+*.mp3
+*.exe
+*.tar.gz
+*.zip
+
+# ── OS noise ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "installed": {
+    "humanizer": {
+      "source": "skills.sh",
+      "identifier": "skills-sh/nousresearch/hermes-agent/humanizer",
+      "trust_level": "community",
+      "scan_verdict": "safe",
+      "content_hash": "sha256:4aa8f90e5f4666fe",
+      "install_path": "humanizer",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {
+        "source_url": "https://github.com/nousresearch/hermes-agent/tree/fde4997f580c3480798fdf9c7e92c0079d6e03d6/skills/creative/humanizer",
+        "source_revision": "fde4997f580c3480798fdf9c7e92c0079d6e03d6",
+        "detail_url": "https://skills.sh/nousresearch/hermes-agent/humanizer",
+        "repo_url": "https://github.com/nousresearch/hermes-agent"
+      },
+      "scan_provenance": {
+        "source": "skills-sh/nousresearch/hermes-agent/humanizer",
+        "source_url": "https://github.com/nousresearch/hermes-agent/tree/fde4997f580c3480798fdf9c7e92c0079d6e03d6/skills/creative/humanizer",
+        "bundle_hash": "sha256:4aa8f90e5f4666fed2d7aa50c0cc27ecc60a7409dd16b0642926d6ea58e637bf",
+        "scanner_version": "skills-guard-v1",
+        "verdict": "safe",
+        "trust_level": "community",
+        "findings": [],
+        "rules": [],
+        "scanned_at": "2026-09-22T14:55:02.750557+00:00",
+        "summary": "humanizer: clean scan, no threats detected",
+        "fresh": false
+      },
+      "installed_at": "2026-09-22T14:56:06.816104+00:00",
+      "updated_at": "2026-09-22T14:56:06.816104+00:00"
+    }
+  }
+}

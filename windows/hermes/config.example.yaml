@@ -1,0 +1,9 @@
+model:
+  default: omniroute/titan-coding-pool
+providers:
+  omniroute:
+    base_url: http://localhost:20128/v1
+    api_key: ${OMNIROUTE_API_KEY}
+plugins:
+  enabled:
+    - default

@@ -1,0 +1,9 @@
+{
+  "last_report_path": "C:\\Users\\mayan\\AppData\\Local\\hermes\\logs\\curator\\20261004-151404",
+  "last_run_at": "2026-10-04T15:14:04.821831+00:00",
+  "last_run_duration_seconds": 0.950929,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 2
+}
